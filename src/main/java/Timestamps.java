@@ -18,7 +18,11 @@ class Timestamps {
         /*
          *  your code goes here
          */
+         int deltaHours = hours2 - hours1;
+         int deltaMinutes = minutes2 - minutes1;
+         int deltaSeconds = seconds2 - seconds1;
 
+         System.out.print((deltaHours * 3600) + (deltaMinutes * 60) + (deltaSeconds));
 
         // closing the scanner object
         scanner.close();
