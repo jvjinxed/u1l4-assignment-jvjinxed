@@ -17,7 +17,7 @@ class AnalogClock {
          int angleDiff = inputAngle - hourAngle;
          
          int min = (angleDiff * 2);
-         
+         //finds minute angle
          int minAngle = min * 6;
 
          System.out.print(minAngle);
