@@ -12,7 +12,7 @@ class SecondsPastMidnight {
         int hours;
         //Your code goes here
         hours = secs / 3600;
-        mins = secs = 60;
+        mins = secs / 60;
         System.out.print(hours + " " + mins);
         // closing the scanner object
         scanner.close();
